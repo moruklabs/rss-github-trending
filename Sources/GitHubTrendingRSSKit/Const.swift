@@ -3,14 +3,14 @@
 import Foundation
 
 public class Const {
-    public static let bundleIdentifier = "io.github.mshibanami.GitHubTrendingRSS"
+    public static let bundleIdentifier = "ai.moruk.github.rss-github-trending"
 
-    public static let rssHomeURL = URL(string: "http://mshibanami.github.io/GitHubTrendingRSS")!
+    public static let rssHomeURL = URL(string: "https://moruklabs.github.io/rss-github-trending")!
     public static let gitHubAPIBaseURL = URL(string: "https://api.github.com")!
     public static let gitHubAPIEmojisURL = URL(string: "\(gitHubAPIBaseURL)/emojis")!
     public static let gitHubTopTrendingURL = URL(string: "\(gitHubBaseURL)/trending")!
     public static let gitHubBaseURL = URL(string: "https://github.com")!
-    public static let gitHubRepositoryURL = URL(string: "https://github.com/mshibanami/GitHubTrendingRSS")!
+    public static let gitHubRepositoryURL = URL(string: "https://github.com/moruklabs/rss-github-trending")!
     public static let pageTitle = "GitHub Trending RSS"
     public static let author = "Manabu Nakazawa"
 
