@@ -18,7 +18,7 @@ if [ -f "$OUTPUT_PATH" ]; then
     exit 1
 fi
 
-GIT_REPO_URL="https://mshibanami:${USER_GITHUB_TOKEN}@github.com/mshibanami/GitHubTrendingRSS.git"
+GIT_REPO_URL="https://moruklabs:${USER_GITHUB_TOKEN}@github.com/moruklabs/rss-github-trending.git"
 
 cd output
 
