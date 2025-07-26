@@ -5,7 +5,7 @@ import Foundation
 public class Const {
     public static let bundleIdentifier = "ai.moruk.github.rss-github-trending"
 
-    public static let rssHomeURL = URL(string: "https://rss.github.moruk.ai")!
+    public static let rssHomeURL = URL(string: "https://moruklabs.github.io/rss-github-trending")!
     public static let gitHubAPIBaseURL = URL(string: "https://api.github.com")!
     public static let gitHubAPIEmojisURL = URL(string: "\(gitHubAPIBaseURL)/emojis")!
     public static let gitHubTopTrendingURL = URL(string: "\(gitHubBaseURL)/trending")!
